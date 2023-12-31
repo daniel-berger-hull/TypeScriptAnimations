@@ -1,0 +1,40 @@
+
+
+
+.PageTitle {
+
+    position: absolute;
+    top: 5%; 
+    left: 30%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: gray;
+    text-shadow: 3px 3px 3px gray;
+}
+
+canvas {
+    position: absolute;
+    top: 20%; 
+    left: 25%;
+    width: 512px;
+    height: 512px;
+    margin: auto;
+    background: url( './img/bricks.png' );
+
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* .floor {
+    position: absolute;
+    top: -200%;
+    left: -200%;
+    width: 100%;
+    height: 100%;
+    background: url('../resources/img/bricks.png' );
+    transform: rotate3d(1, 0, 1, 50deg);
+} */
+
